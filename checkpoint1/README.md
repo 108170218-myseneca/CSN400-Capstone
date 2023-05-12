@@ -19,5 +19,5 @@
 - This is my collaboration image
 <img src=*./Collaborators.jpg"
      alt="Repo Collaboration Screenshot"
-     title=
+     title="Repo Collaborator"
      style="float: left; margin-right: 10px;" />
