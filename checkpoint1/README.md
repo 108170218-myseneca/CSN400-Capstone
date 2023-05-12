@@ -17,6 +17,7 @@
 
 - ### My Image
 - This is my collaboration image
-<img src+.png"
-     alt="Markdown Monster icon"
+<img src=*./Collaborators.jpg"
+     alt="Repo Collaboration Screenshot"
+     title=
      style="float: left; margin-right: 10px;" />
