@@ -14,8 +14,8 @@
 - sample table
 - sample hyperlink
 
-- ### My Image
-- This is my collaboration image
+### My Image
+This is my collaboration image
 <img src=*./Collaborators.jpg"
      alt="Repo Collaboration Screenshot"
      title="Repo Collaborator"
