@@ -7,7 +7,7 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ### Table of Contents
-- an image
+- [My Image](#my-image)
 - single line code snippet
 - multi line code snippet (preferably bash script"
 - sample json objects
