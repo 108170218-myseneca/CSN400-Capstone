@@ -27,8 +27,7 @@ this is my single of code `assign 1`
 #### Single line code snippet.
 When we add ~~ text ~~ in our README.md file this creates
 strikethrough
-This is the example of strikethrough
-~~This is a strikethrough line example~~
+
 #### Multi line code snippet.
 **This is bold text**
 ```
@@ -41,8 +40,6 @@ git add
 "condition first": true,
 "conditionsecond": false
 }
-This study source was downloaded by 100000817293645 from CourseHero.com on 05-13-2023 09:12:51 GMT -05:00
-https://www.coursehero.com/file/188295891/READMEmd/
 ```
 #### Sample table
 These are the players that are GOAT in each SPORTS
@@ -53,4 +50,4 @@ These are the players that are GOAT in each SPORTS
 | Zlatan | WRESTLING | 
 
 #### Sample hyperlink
-This is [Tiktok Homepage.](https://www.tiktok.com/)
+This is [Tiktok Homepage.](https://www.w3schools.com/html/html_links.asp/)
