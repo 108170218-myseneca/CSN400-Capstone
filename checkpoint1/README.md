@@ -37,17 +37,20 @@ git add
 #### Sample json objects.
 ```json
 {
-"condition first": true,
-"conditionsecond": false
+  "name": "Soufiane",
+  "age": 32,
+  "city": "Toronto",
+  "isMarried": true,
+  "hobbies": ["running", "cooking"],
 }
 ```
 #### Sample table
-These are the players that are GOAT in each SPORTS
-| Players Name | Sports |
+These are our csn400 section and professors for this semester
+| Professors Name | Sections |
 | ------------- | ------------- |
-| Ronaldo cr7 | SOCCER |
-| Messi | ICE HOCKEY |
-| Zlatan | WRESTLING | 
+| Anoota Nasiri | Azure Project |
+| Scott Apted | Networking Projects  |
+
 
 #### Sample hyperlink
 This is [hyperlink html examples.](https://www.w3schools.com/)
