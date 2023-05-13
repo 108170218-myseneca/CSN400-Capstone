@@ -31,8 +31,21 @@ strikethrough
 #### Multi line code snippet.
 **This is bold text**
 ```
-git status
-git add
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My HTML Page</title>
+  </head>
+  <body>
+    <h1>Welcome to my HTML Page</h1>
+    <p>This is a paragraph of text.</p>
+    <ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+    </ul>
+  </body>
+</html>
 ```
 #### Sample json objects.
 ```json
