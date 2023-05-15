@@ -29,20 +29,34 @@ This is my single of code `Assignment 1`
 
 #### Multiple line code snippet.
 This is my multi lines of code snippet
-```
+```.bash
+{
 #!/bin/bash
-echo "Enter directory name"
-read ndir
-if [ -d "$ndir" ]
-then
-echo "Directory exist"
-else
-`mkdir $ndir`
-echo "Directory created"
-fi
+
+# This script demonstrates a multi-line code snippet
+
+echo "Starting the script..."
+
+# Loop through numbers from 1 to 5
+for ((i=1; i<=5; i++))
+do
+    echo "Number: $i"
+
+    # Check if the number is even or odd
+    if ((i % 2 == 0))
+    then
+        echo "Even number"
+    else
+        echo "Odd number"
+    fi
+
+done
+
+echo "Script execution complete."
+}
 ```
 #### Sample json objects.
-```json
+```.json
 {
   "name": "Soufiane",
   "age": 32,
