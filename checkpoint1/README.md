@@ -30,21 +30,16 @@ This is my single of code `Assignment 1`
 #### Multiple line code snippet.
 This is my multi lines of code snippet
 ```
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My HTML Page</title>
-  </head>
-  <body>
-    <h1>Welcome to my HTML Page</h1>
-    <p>This is a paragraph of text.</p>
-    <ul>
-      <li>List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-    </ul>
-  </body>
-</html>
+#!/bin/bash
+echo "Enter directory name"
+read ndir
+if [ -d "$ndir" ]
+then
+echo "Directory exist"
+else
+`mkdir $ndir`
+echo "Directory created"
+fi
 ```
 #### Sample json objects.
 ```json
