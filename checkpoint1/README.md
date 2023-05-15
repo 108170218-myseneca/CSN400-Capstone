@@ -28,8 +28,8 @@ this is my single of code `assign 1`
 When we add ~~ text ~~ in our README.md file this creates
 strikethrough
 
-#### Multi line code snippet.
-**This is bold text**
+#### Multiple line code snippet.
+This is my multi lines of code snippet
 ```
 <!DOCTYPE html>
 <html>
