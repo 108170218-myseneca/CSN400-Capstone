@@ -25,7 +25,7 @@ This is my collaboration image
 This is my single of code `Assignment 1`
 
 #### Single line code snippet.
-<p>Hello, world!</p>
+<p>Sberni, welcome to csn400!</p>
 
 #### Multiple line code snippet.
 This is my multi lines of code snippet
