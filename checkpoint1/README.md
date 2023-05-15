@@ -22,14 +22,13 @@ This is my collaboration image
      style="float: left; margin-right: 10px;" />
 
 ### My Single Line of Code
-this is my single of code `assign 1`
+This is my single of code `Assignment 1`
 
 #### Single line code snippet.
-When we add ~~ text ~~ in our README.md file this creates
-strikethrough
+<p>Hello, world!</p>
 
 #### Multiple line code snippet.
-**This is my multi lines of code snippet**
+This is my multi lines of code snippet
 ```
 <!DOCTYPE html>
 <html>
