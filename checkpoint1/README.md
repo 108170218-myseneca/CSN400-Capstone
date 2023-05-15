@@ -29,7 +29,7 @@ When we add ~~ text ~~ in our README.md file this creates
 strikethrough
 
 #### Multiple line code snippet.
-This is my multi lines of code snippet
+**This is my multi lines of code snippet**
 ```
 <!DOCTYPE html>
 <html>
