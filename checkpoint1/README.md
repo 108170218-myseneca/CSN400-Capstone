@@ -66,4 +66,4 @@ These are our csn400 section and professors for this semester
 
 
 #### Sample hyperlink
-This is [hyperlink html examples.](https://www.w3schools.com/)
+This is [hyperlink html examples.](https://www.google.com/)
