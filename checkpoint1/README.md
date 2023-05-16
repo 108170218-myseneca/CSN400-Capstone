@@ -29,8 +29,7 @@ This is my single of code `Assignment 1`
 
 #### Multiple line code snippet.
 This is my multi lines of code snippet
-```.bash
-{
+```
 #!/bin/bash
 
 # This script demonstrates a multi-line code snippet
@@ -53,10 +52,10 @@ do
 done
 
 echo "Script execution complete."
-}
+
 ```
 #### Sample json objects.
-```.json
+```
 {
   "name": "Soufiane",
   "age": 32,
