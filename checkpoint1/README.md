@@ -22,13 +22,13 @@ This is my collaboration image
      style="float: left; margin-right: 10px;" />
 
 ### My Single Line of Code
-This is my single of code `Assignment 1`
+A single of code for...`Assignment 1`
 
 #### Single line code snippet.
 <p>Sberni, welcome to csn400!</p>
 
 #### Multiple line code snippet.
-This is my multi lines of code snippet
+Multi lines of code snippet
 ```
 #!/bin/bash
 
