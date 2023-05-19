@@ -1,5 +1,5 @@
 # CSN400-Capstone
-changes
+Changes for Checkpoint2
 - Add folder
 - Add a branch
 - Merge Branches
