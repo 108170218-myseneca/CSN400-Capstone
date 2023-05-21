@@ -68,5 +68,5 @@ Date:   Fri May 19 01:17:16 2023 -0400
 * `Release branches` is to prepare the release and complete the feature before it is merged into the main branch.
   
 3
-* `What are the best practices in working with release branches?` Create a separate branch for each release, and test them before merging them to the main branch, also, avoid direct commits and focus on fixing bugs before the release. And merge them back to the main and develop, however, tagging the release a version number to mark a release point.
+* `The best practices in working with release branches` Create a separate branch for each release, and test them before merging them to the main branch, also, avoid direct commits and focus on fixing bugs before the release. And merge them back to the main and develop, however, tagging the release a version number to mark a release point.
 
