@@ -42,13 +42,6 @@ Date:   Fri May 19 11:07:31 2023 -0400
 
     updated README.md
 
-
-commit b463e4063968fe7224e68f1568a283cbc405dd60
-Author: Soufiane Berni <133375974+108170218-myseneca@users.noreply.github.com>
-Date:   Fri May 19 09:09:32 2023 -0400
-
-    updates README.md
-
 commit 142f20cca65bdf6f0f66a5e88126b184e45cc29a
 Author: soufiane <sberni@myseneca.ca>
 Date:   Fri May 19 01:17:16 2023 -0400
