@@ -20,8 +20,8 @@ $ git status
 $ git commit -m "add comment"
 ```
 ### Part B - Inspecting Local Repo with `git status` and `git log`
-`git status` is used to check the status of files in the working directory, which can show all the changes that have been made to the files.
-`git log` is used to commit the history of the repository, including details of the author, date, and commit number.
+* `git status` is used to check the status of files in the working directory, which can show all the changes that have been made to the files.
+* `git log` is used to commit the history of the repository, including details of the author, date, and commit number.
 ### Part C - Creating & Merging Branches
 $ git log -n 5
 commit ab2e31fe5ac20b7aded0620d09b2dfef977f06c2 (HEAD -> main)
