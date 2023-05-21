@@ -24,8 +24,10 @@ $ git commit -m "add comment"
 * `git log` is used to commit the history of the repository, including details of the author, date, and commit number.
 ### Part C - Creating & Merging Branches
 * `git log -n 5`
-```
+
 All the results afer running the command above 
+
+```
 commit ab2e31fe5ac20b7aded0620d09b2dfef977f06c2 (HEAD -> main)
 Author: 108170218-myseneca <sberni@myseneca.ca>
 Date:   Fri May 19 19:51:56 2023 -0400
