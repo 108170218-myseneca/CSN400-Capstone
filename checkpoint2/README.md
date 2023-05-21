@@ -58,8 +58,9 @@ Date:   Fri May 19 01:17:16 2023 -0400
 ```
 ### Part D - Git Branching Strategy Review Question 
 
-1 * `The main branch (master)` is a version of the code that is being used by the user. However, can forward automatically all commits that have been made.
-  * `The develop branch` is used to test and develop the new features before being directed and merging back to the main branch.
+1
+** `The main branch (master)` is a version of the code that is being used by the user. However, can forward automatically all commits that have been made.**
+** `The develop branch` is used to test and develop the new features before being directed and merging back to the main branch.**
   
 2 * `Feature/Bugfix branches` which can be used to test and develop the feature before merging it to the main branch.
   * `Hotfix branches` The main role of this branch is to fix issues on the main branch, and passing waiting for the next release, and tackle any problems that appear on the main branch.
