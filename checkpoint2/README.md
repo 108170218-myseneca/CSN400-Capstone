@@ -1,10 +1,10 @@
 # Checkpoint2 Submission
+- **COURSE INFORMATION: CSN400-2234**
+- **STUDENT'S NAME: Soufiane Berni**
+- **STUDENT'S NUMBER: 108170218**
+- **GITHUB USER ID: 108170218-myseneca**
+- **TEACHER'S NAME: Atoosa Nasiri**
 
-- **COURSE INFORMATION:** [CSN400-2234]
-- **STUDENT'S NAME:** [Soufiane Berni]
-- **STUDENT'S NUMBER:** [108170218]
-- **GITHUB USER ID:** [108170218-myseneca]
-- **TEACHER'S NAME:** [Atoosa Nasiri]
 
 ### Table of Contents
 1. [Part A - Adding Files - Local Repo Workflow](#adding-files---local-repo-workflow)
@@ -19,10 +19,10 @@ $ git add .
 $ git status
 $ git commit -m "add comment"
 ```
-### Part B - Inspecting Local Repo with `git status` and `git log` <a name="inspecting-local-repo-with-git-status-and-git-log"></a>
+### Part B - Inspecting Local Repo with `git status` and `git log`
 `git status` is used to check the status of files in the working directory, which can show all the changes that have been made to the files.
 `git log` is used to commit the history of the repository, including details of the author, date, and commit number.
-### Part C - Creating & Merging Branches <a name="creating--merging-branches"></a>
+### Part C - Creating & Merging Branches
 $ git log -n 5
 commit ab2e31fe5ac20b7aded0620d09b2dfef977f06c2 (HEAD -> main)
 Author: 108170218-myseneca <sberni@myseneca.ca>
@@ -55,12 +55,12 @@ Date:   Fri May 19 01:17:16 2023 -0400
 
     adds footnotes folder
 
-### Part D - Git Branching Strategy Review Question <a name="part-d---git-branching-strategy-review-question"></a>
+### Part D - Git Branching Strategy Review Question 
 
-1. * `The main branch (master)` is a version of the code that is being used by the user. However, can forward automatically all commits that have been made. **
-- * `The develop branch` is used to test and develop the new features before being directed and merging back to the main branch. **
-2.- * `Feature/Bugfix branches` which can be used to test and develop the feature before merging it to the main branch.**
-   - * `Hotfix branches` The main role of this branch is to fix issues on the main branch, and passing waiting for the next release, and tackle any problems that appear on the main branch.** 
-   - * `Release branches` is to prepare the release and complete the feature before it is merged into the main branch**
-3.- * `What are the best practices in working with release branches?` Create a separate branch for each release, and test them before merging them to the main branch, also, avoid direct commits and focus on fixing bugs before the release. And merge them back to the main and develop, however, tagging the release a version number to mark a release point.
+1 * `The main branch (master)` is a version of the code that is being used by the user. However, can forward automatically all commits that have been made. **
+  * `The develop branch` is used to test and develop the new features before being directed and merging back to the main branch. **
+2 * `Feature/Bugfix branches` which can be used to test and develop the feature before merging it to the main branch.**
+  * `Hotfix branches` The main role of this branch is to fix issues on the main branch, and passing waiting for the next release, and tackle any problems that appear on the main branch.** 
+   * `Release branches` is to prepare the release and complete the feature before it is merged into the main branch**
+3 * `What are the best practices in working with release branches?` Create a separate branch for each release, and test them before merging them to the main branch, also, avoid direct commits and focus on fixing bugs before the release. And merge them back to the main and develop, however, tagging the release a version number to mark a release point.
 
