@@ -42,8 +42,6 @@ You can add an image or a code block, too.
 
 </details>
 
-### Example Two: Collapsed Section with Python Code
-
 <details>
 
 <summary><b>Sample Python Code</b></summary>
