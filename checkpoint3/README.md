@@ -34,8 +34,4 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 ### My Image
-This is my pullrequesting image
-<img src="./pullrequest.jpg"
-     alt="Repo Pullrequesting Screenshot"
-     title:"Repo PullRequesting"
-     style="float: left; margin-right: 10px;" />
+![pullrequest](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/checkpoint3/pullrequest.jpg)
