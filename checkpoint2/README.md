@@ -22,7 +22,7 @@ $ git status
 $ git commit -m "add comment in here"
 
 ```
-### Part B - Inspecting Local Repo with `git status` and `git log` 
+### Part B - Inspecting Local Repo 
 `git status` is used to check the status of files in the working directory, which can show all the changes that have been made to the files.
 `git log` is used to commit the history of the repository, including details of the author, date, and commit number.
 
