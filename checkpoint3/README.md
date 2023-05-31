@@ -34,8 +34,8 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 ### My Image
-This is my pullrequest image
+This is my pullrequesting image
 <img src="./pullrequest.jpg"
-     alt="Repo pullrequest screenshot"
-     title:"pullRequest"
+     alt="Repo Pullrequesting Screenshot"
+     title:"Repo PullRequesting"
      style="float: left; margin-right: 10px;" />
