@@ -38,4 +38,4 @@ This is my pull request image
 <img src="./pullrequest.jpg"
      alt=" Repo pullrequest screenshot"
      title:"pullRequest"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;"/>
