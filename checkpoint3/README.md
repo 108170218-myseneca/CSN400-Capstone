@@ -23,7 +23,9 @@ then i created conflict by updating the color in (local repo) to `darkolivegreen
 
 ### PartC - Conflict Management - Merge Editor
 Managing the conflict using the `VSCode` I have `Accept Incoming` and `Accept Current` for the second part. After accepting both changes, the process moves towards the `Complete Merge`
+
 ![Finalmerge](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/checkpoint3/Finalmerge.JPG)
+
 ### PartD - Collaboration - Creating a Pull Request
 After runing `git status` it showed the result below
 ```
