@@ -25,9 +25,8 @@ Managing the conflict using the `VSCode` I have `Accept Incoming` and `Accept Cu
 towards `Complete Merge` 
 
 ### PartD - Collaboration - Creating a Pull Request
-
 This is my pull request screenshot
 <img src="./pullrequest.jpg"
-     alt="Pull request screenshot"
-     title:"Pull request"
+     alt="Pull Request screenshot"
+     title:"Pull Request"
      style="float: left; margin-right: 10px;" />
