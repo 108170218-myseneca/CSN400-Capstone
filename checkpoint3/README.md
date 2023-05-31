@@ -11,6 +11,7 @@
 - [PartB - Conflict Management - Resetting Local Commit Head](#PartB---conflict-management---resetting-local-commit-head)
 - [PartC - Conflict Management - Merge Editor](#PartC---conflict-management---merge-editor)
 - [PartD - Collaboration - Creating a Pull Request](#PartD---collaboration---creating-a-pull-request)
+- [My Image](#my-image)
 
 ### PartA - Conflict Management - Overwriting Remote Changes
 Under the `Checkpoin3` i have created a subfolder `conflict-resolution` 
@@ -25,8 +26,16 @@ Managing the conflict using the `VSCode` I have `Accept Incoming` and `Accept Cu
 towards `Complete Merge` 
 
 ### PartD - Collaboration - Creating a Pull Request
-This is my pull request screenshot
+After runing `git status` it showed the result below
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+### My Image
+This is my pull request image
 <img src="./pullrequest.jpg"
-     alt="Pull Request screenshot"
-     title:"Pull Request"
+     alt=" Repo pullrequest screenshot"
+     title:"pullRequest"
      style="float: left; margin-right: 10px;" />
