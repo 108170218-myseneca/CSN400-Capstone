@@ -22,8 +22,7 @@ What color will the text be after forcefully overwriting remote changes with loc
 then i created conflict by updating the color in (local repo) to `darkolivegreen`
 
 ### PartC - Conflict Management - Merge Editor
-Managing the conflict using the `VSCode` I have `Accept Incoming` and `Accept Current` for the second part. Once i have accepted both changes 
-towards `Complete Merge` 
+Managing the conflict using the `VSCode` I have `Accept Incoming` and `Accept Current` for the second part. After accepting both changes, the process moves towards the `Complete Merge`
 
 ### PartD - Collaboration - Creating a Pull Request
 After runing `git status` it showed the result below
