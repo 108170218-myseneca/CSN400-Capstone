@@ -11,7 +11,7 @@
 - [PartB - Conflict Management - Resetting Local Commit Head](#PartB---conflict-management---resetting-local-commit-head)
 - [PartC - Conflict Management - Merge Editor](#PartC---conflict-management---merge-editor)
 - [PartD - Collaboration - Creating a Pull Request](#PartD---collaboration---creating-a-pull-request)
-- [My Image](#my-image)
+- [Pull Request](#Pull-Request)
 
 ### PartA - Conflict Management - Overwriting Remote Changes
 Under the `Checkpoin3` i have created a subfolder `conflict-resolution` 
@@ -33,5 +33,5 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 ```
-### My Image
+### Pull Request
 ![pullrequest](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/checkpoint3/pullrequest.jpg)
