@@ -8,10 +8,10 @@
 
   
 ### Table of Contents
-1. [Part A - Adding Files - Local Repo Workflow](#adding-files---local-repo-workflow)
-2. [Part B - Inspecting Local Repo with `git status` and `git log`](#inspecting-local-repo-with-git-status-and-git-log)
-3. [Part C - Creating & Merging Branches](#creating--merging-branches)
-4. [Part D - Git Branching Strategy Review Question](#git-branching-strategy-review-question)
+- [Part A - Adding Files - Local Repo Workflow](#Part-A---Adding-Files---Local-Repo-Workflow)
+- [Part B - Inspecting - Local Repo](#Part-B---Iinspecting---Local-Repo)
+- [Part C - Creating - Merging Branches](#Part-C---Creating-and---Merging-Branches)
+- [Part D - Git Branching Strategy Review Question](#Part-D---Git-Branching-Strategy-Review-Question)
 
 
 ### Part A - Adding Files - Local Repo Workflow
@@ -22,11 +22,11 @@ $ git status
 $ git commit -m "add comment in here"
 
 ```
-### Part B - Inspecting Local Repo with `git status` and `git log` 
+### Part B - Inspecting Local Repo 
 `git status` is used to check the status of files in the working directory, which can show all the changes that have been made to the files.
 `git log` is used to commit the history of the repository, including details of the author, date, and commit number.
 
-### Part C - Creating & Merging Branches 
+### Part C - Creating and Merging Branches 
 
 `git log -n 5`
 
