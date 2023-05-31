@@ -9,8 +9,8 @@
   
 ### Table of Contents
 - [Part A - Adding Files - Local Repo Workflow](#Part-A---Adding-Files---Local-Repo-Workflow)
-- [Part B - Inspecting Local Repo](#Part-B--Iinspecting-Local-Repo)
-- [Part C - Creating and Merging Branches](#Part-C---Creating-and-Merging-Branches)
+- [Part B - Inspecting - Local Repo](#Part-B--Iinspecting---Local-Repo)
+- [Part C - Creating - Merging Branches](#Part-C---Creating-and---Merging-Branches)
 - [Part D - Git Branching Strategy Review Question](#Part-D---Git-Branching-Strategy-Review-Question)
 
 
