@@ -19,7 +19,7 @@
 Under the `Checkpoin3` i have created a subfolder `conflict-resolution` 
 and added files into it. then i have `push` the changes. What color will the text appear? from `red` to `green`
 
-- `\* part1-conflict-error.log`
+- `* part1-conflict-error.log`
 
 ```
 Pushing to https://github.com/108170218-myseneca/CSN400-Capstone.git
@@ -32,7 +32,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-- `\* part1-conflict-overwrite.log`
+- `* part1-conflict-overwrite.log`
 
 ```
 POST git-receive-pack (12100 bytes)
@@ -67,7 +67,7 @@ updating local tracking ref 'refs/remotes/origin/main'
 What color will the text be after forcefully overwriting remote changes with local changes? After modifying on `GitHub` the color for `red` to `marron`, 
 then i created conflict by updating the color in (local repo) to `darkolivegreen`
 
-- `\* part2-conflict-error.log`
+- `* part2-conflict-error.log`
 
 ```
 Pushing to https://github.com/108170218-myseneca/CSN400-Capstone.git
@@ -80,7 +80,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-- `\* part2-pull-error.log`
+- `* part2-pull-error.log`
 
 ```
 POST git-upload-pack (196 bytes)
@@ -93,7 +93,7 @@ CONFLICT (content): Merge conflict in checkpoint3/conflict-resolution/index.html
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-- `\* part2-reset-head.log`
+- `* part2-reset-head.log`
 
 ```
 HEAD is now at ec34eb4 modifies style color in index.html to green
@@ -104,7 +104,7 @@ Date:   Sun May 28 21:49:53 2023 -0400
     modifies style color in index.html to green
 ```
 
-- `\* part2-pull-success.log`
+- `* part2-pull-success.log`
 
 ```
 POST git-upload-pack (196 bytes)
@@ -116,7 +116,7 @@ Fast-forward
  checkpoint3/conflict-resolution/index.html | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
-- `\* part3-status.log`
+- `* part3-status.log`
 
 ```
 On branch main
@@ -134,13 +134,15 @@ towards `Complete Merge`
 
 - The updated name and email in HTML
   ```
-<footer>
+  <footer>
   <p>Author: Soufiane Berni</p>
   <p><a href="mailto:sberni@myseneca.ca"></a>sberni@myseneca.ca</p>
   <p><a href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts">Git Merge Conflicts</a></p>
   </footer>
-</html
+</html>
 ```
+![Finalmerge](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/checkpoint3/Finalmerge.JPG)
+
 
 ### PartD - Collaboration - Creating a Pull Request
 After runing `git status` it showed the result below
