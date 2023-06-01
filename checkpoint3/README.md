@@ -7,11 +7,11 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ### Table of Contents
-    - [PartA - Conflict Management - Overwriting Remote Changes](#PartA---conflict-management---overwriting-remote-changes)
-    - [PartB - Conflict Management - Resetting Local Commit Head](#PartB---conflict-management---resetting-local-commit-head)
-    - [PartC - Conflict Management - Merge Editor](#PartC---conflict-management---merge-editor)
-    - [PartD - Collaboration - Creating a Pull Request](#PartD---collaboration---creating-a-pull-request)
-    - [Pull Request](#pull-request)
+-[PartA - Conflict Management - Overwriting Remote Changes](#PartA---conflict-management---overwriting-remote-changes)
+-[PartB - Conflict Management - Resetting Local Commit Head](#PartB---conflict-management---resetting-local-commit-head)
+-[PartC - Conflict Management - Merge Editor](#PartC---conflict-management---merge-editor)
+-[PartD - Collaboration - Creating a Pull Request](#PartD---collaboration---creating-a-pull-request)
+-[Pull Request](#pull-request)
 
 ### PartA - Conflict Management - Overwriting Remote Changes
 Under the `Checkpoin3` i have created a subfolder `conflict-resolution` 
