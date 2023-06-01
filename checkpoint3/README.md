@@ -7,12 +7,10 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ### Table of Contents
-- [Checkpoint3 Submission](#checkpoint3-submission)
-    - [Table of Contents](#table-of-contents)
-    - [PartA - Conflict Management - Overwriting Remote Changes](#parta---conflict-management---overwriting-remote-changes)
-    - [PartB - Conflict Management - Resetting Local Commit Head](#partb---conflict-management---resetting-local-commit-head)
-    - [PartC - Conflict Management - Merge Editor](#partc---conflict-management---merge-editor)
-    - [PartD - Collaboration - Creating a Pull Request](#partd---collaboration---creating-a-pull-request)
+    - [PartA - Conflict Management - Overwriting Remote Changes](#PartA---conflict-management---overwriting-remote-changes)
+    - [PartB - Conflict Management - Resetting Local Commit Head](#PartB---conflict-management---resetting-local-commit-head)
+    - [PartC - Conflict Management - Merge Editor](#PartC---conflict-management---merge-editor)
+    - [PartD - Collaboration - Creating a Pull Request](#PartD---collaboration---creating-a-pull-request)
     - [Pull Request](#pull-request)
 
 ### PartA - Conflict Management - Overwriting Remote Changes
