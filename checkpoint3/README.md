@@ -139,6 +139,7 @@ towards `Complete Merge`
   </footer>
 </html>
 ```
+
 ![Finalmerge](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/checkpoint3/Finalmerge.JPG)
 
 
