@@ -34,7 +34,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ### click for the log content <<<<<<<< add collapsed section
 <details>
+	
 <summary><b> output of the conflict overwrite log file</b></summary>
+	
 ```bash
 POST git-receive-pack (12100 bytes)
 remote: Resolving deltas:   0% (0/18)        
@@ -62,6 +64,7 @@ To https://github.com/108170218-myseneca/CSN400-Capstone.git
  + 7f5ae37...ec34eb4 main -> main (forced update)
 updating local tracking ref 'refs/remotes/origin/main'
 ```
+
 </details>
 
 
