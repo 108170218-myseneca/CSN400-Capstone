@@ -41,12 +41,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 <details>
 
 - [./logs/part1-conflict-overwrite.log](./logs/part1-conflict-overwrite.log)
-
-### click for the log content <<<<< conflict overwrite details
-
-<details>
-	
-<summary><b>output of the log file conflict overwrite</b></summary>
 	
 ```bash
 POST git-receive-pack (12100 bytes)
@@ -76,20 +70,11 @@ To https://github.com/108170218-myseneca/CSN400-Capstone.git
 updating local tracking ref 'refs/remotes/origin/main'
 ```
 
-</details>
-
-
 ### PartB - Conflict Management - Resetting Local Commit Head
 What color will the text be after forcefully overwriting remote changes with local changes? After modifying on `GitHub` the color for `red` to `marron`, 
 then i created conflict by updating the color in (local repo) to `darkolivegreen`
 
 - [./logs/part2-conflict-error.log](./logs/part2-conflict-error.log)
-
-### click for the log content <<<<< part2 conflict error details
-	
-<details>
-
-<summary><b>output of the log file part2 conflict error</b></summary>				
 
 ```bash
 Pushing to https://github.com/108170218-myseneca/CSN400-Capstone.git
@@ -101,17 +86,9 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-```
-
-<details>	
+```	
 
 - [./logs/part2-pull-error.log](./logs/part2-pull-error.log)
-
-### click for the log content <<<<< part2 pull error details
-	
-<details>
-
-<summary><b>output of the log file part2 pull error</b></summary>
 
 ```bash
 POST git-upload-pack (196 bytes)
@@ -124,15 +101,7 @@ CONFLICT (content): Merge conflict in checkpoint3/conflict-resolution/index.html
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-<details>
-
 - [./logs/part2-reset-head.log](./logs/part2-reset-head.log)
-
-### click for the log content <<<<< part2 reset head details
-	
-<details>
-
-<summary><b>output of the log file part2 reset head</b></summary>
 
 ```bash
 HEAD is now at ec34eb4 modifies style color in index.html to green
@@ -143,15 +112,7 @@ Date:   Sun May 28 21:49:53 2023 -0400
     modifies style color in index.html to green
 ```
 
-<details>
-
 - [./logs/part2-pull-success.log](./logs/part2-pull-success.log)
-
-### click for the log content <<<<< part2 pull success details
-					
-<details>
-
-<summary><b>output of the log file part2 pull success </b></summary>
 
 ```bash
 POST git-upload-pack (196 bytes)
@@ -163,7 +124,6 @@ Fast-forward
  checkpoint3/conflict-resolution/index.html | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
-<details>
 
 - [./logs/part3-status.log](./logs/part3-status.log)
 
