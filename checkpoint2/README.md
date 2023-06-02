@@ -9,18 +9,17 @@
   
 ### Table of Contents
 - [Part A - Adding Files - Local Repo Workflow](#Part-A---Adding-Files---Local-Repo-Workflow)
-- [Part B - Inspecting - Local Repo](#Part-B---Inspecting---Local-Repo)
+- [Part B - Inspecting - Local Repo](#Part-B---Inspecting-Local-Repo)
 - [Part C - Creating - Merging Branches](#Part-C---Creating---Merging-Branches)
 - [Part D - Git Branching Strategy Review Question](#Part-D---Git-Branching-Strategy-Review-Question)
 
 
 ### Part A - Adding Files - Local Repo Workflow
 
-```
+```bash
 $ git add .
 $ git status
 $ git commit -m "add comment in here"
-
 ```
 ### Part B - Inspecting Local Repo 
 
@@ -29,9 +28,9 @@ $ git commit -m "add comment in here"
 
 ### Part C - Creating Merging Branches 
 
-`git log -n 5`
+All the results afer running the command below:
 
-All the results afer running the command above 
+`git log -n 5`
 
 ```bash
 commit ab2e31fe5ac20b7aded0620d09b2dfef977f06c2 (HEAD -> main)
