@@ -30,7 +30,9 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-- `* part1-conflict-overwrite.log`
+- [part1-conflict-overwrite.log](./logs/part1-conflict-overwrite.log)
+
+### click for the log content <<<<<<<< add collapsed section
 
 ```
 POST git-receive-pack (12100 bytes)
