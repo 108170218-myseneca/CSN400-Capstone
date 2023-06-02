@@ -144,6 +144,9 @@ towards `Complete Merge`
 
 
 ### PartD - Collaboration - Creating a Pull Request
+
+Link to the related Pull Request: [feat-learn-markdown Pull Request #2](https://github.com/108170218-myseneca/CSN400-Capstone/pull/2)
+
 After runing `git status` it showed the result below
 ```
 On branch main
