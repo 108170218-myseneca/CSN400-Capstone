@@ -8,10 +8,10 @@
 
   
 ### Table of Contents
-- [Part A - Adding Files - Local Repo Workflow](#Part-A---Adding-Files---Local-Repo-Workflow)
-- [Part B - Inspecting - Local Repo](#Part-B---Iinspecting---Local-Repo)
-- [Part C - Creating - Merging Branches](#Part-C---Creating-and---Merging-Branches)
-- [Part D - Git Branching Strategy Review Question](#Part-D---Git-Branching-Strategy-Review-Question)
+- [Part-A - Adding Files - Local Repo Workflow](#Part-A---Adding-Files---Local-Repo-Workflow)
+- [Part-B - Inspecting - Local Repo](#Part-B---Inspecting---Local-Repo)
+- [Part-C - Creating - Merging Branches](#Part-C---Creating-and-Merging-Branches)
+- [Part-D - Git Branching Strategy Review Question](#Part-D---Git-Branching-Strategy-Review-Question)
 
 
 ### Part A - Adding Files - Local Repo Workflow
@@ -23,6 +23,7 @@ $ git commit -m "add comment in here"
 
 ```
 ### Part B - Inspecting Local Repo 
+
 `git status` is used to check the status of files in the working directory, which can show all the changes that have been made to the files.
 `git log` is used to commit the history of the repository, including details of the author, date, and commit number.
 
@@ -32,8 +33,7 @@ $ git commit -m "add comment in here"
 
 All the results afer running the command above 
 
-```
-
+```bash
 commit ab2e31fe5ac20b7aded0620d09b2dfef977f06c2 (HEAD -> main)
 Author: 108170218-myseneca <sberni@myseneca.ca>
 Date:   Fri May 19 19:51:56 2023 -0400
@@ -64,8 +64,8 @@ Author: soufiane <sberni@myseneca.ca>
 Date:   Fri May 19 01:17:16 2023 -0400
 
     adds footnotes folder
-
 ```
+
 ### Part D - Git Branching Strategy Review Question 
 
 1
