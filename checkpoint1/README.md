@@ -29,8 +29,7 @@ A single of code for...`Assignment 1`
 
 #### Multiple line code snippet.
 Multi lines of code snippet
-```
-#!/bin/bash
+```bash
 
 # This script demonstrates a multi-line code snippet
 
@@ -52,10 +51,9 @@ do
 done
 
 echo "Script execution complete."
-
 ```
 #### Sample json objects.
-```
+```python
 {
   "name": "Soufiane",
   "age": 32,
