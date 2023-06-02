@@ -14,10 +14,10 @@
 - [Pull Request](#Pull-Request)
 
 ### PartA - Conflict Management - Overwriting Remote Changes
-Under the `Checkpoin3` i have created a subfolder `conflict-resolution` 
+Under the `Checkpoin3` I have created a subfolder `conflict-resolution` 
 and added files into it. then i have `push` the changes. What color will the text appear? from `red` to `green`
 
-- `* part1-conflict-error.log`
+- [./logs/part1-conflict-error.log](./logs/part1-conflict-error.log)
 
 ```
 Pushing to https://github.com/108170218-myseneca/CSN400-Capstone.git
