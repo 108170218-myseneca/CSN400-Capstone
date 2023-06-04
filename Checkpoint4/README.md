@@ -10,11 +10,11 @@
 1. [Part A - Working with Docker Desktop](#Part-A---Working-with-Docker-Desktop)
 2. [Part B - Run The container](#Part-B---Run-The-Container)
 3. [Part C - Run Docker Hub Image](#Part-C---Run-Docker-Hub-Image)
-4. [Part D - Publish The Images](#[Part-D---Publish-the-images)
+4. [Part D - Publish The Images](#[Part-D---Publish-The-Images)
 
 ### Part A - Working with Docker Desktop
 Atfer installing and creating `Docker Desktop` with my senecaID:`108170218myseneca`
-[my docker desktop](https://hub.docker.com/u/108170218myseneca) After opening VSCode, I proceeded to verify the Docker version by running the command `docker --version`, which returned the following result: `Docker version 24.0.2, build cb74dfc`.
+- [my docker desktop](https://hub.docker.com/u/108170218myseneca) After opening VSCode, I proceeded to verify the Docker version by running the command `docker --version`, which returned the following result: `Docker version 24.0.2, build cb74dfc`.
 
 ### Step 1: Set up the guide
 - [./PartA/guidesetup.JPG](./PartA/guidesetup.JPG)
@@ -39,14 +39,14 @@ Atfer installing and creating `Docker Desktop` with my senecaID:`108170218mysene
 ![container stop](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartA/stopcontainer.JPG)
 
 
-### Part B - Run the container
+### Part B - Run The Container
 ### Step 1: Get the sample application
 - [./PartB/clonedocker.JPG](./PartB/clonedocker.JPG)
 ![Clone Docker](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartB/clonedocker.JPG)
 
 ### Step 2: Explore the Dockerfile
 - [./PartB/Dockerfile.JPG](./PartB/Dockerfile.JPG)
-![Docker File](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartB/Buildimage.JPG)
+![Docker File](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartB/Dockerfile.JPG)
 
 ### Step 3: Build the first Image
 - [./PartB/Buildimage.JPG](./PartB/Buildimage.JPG)
@@ -73,7 +73,7 @@ Atfer installing and creating `Docker Desktop` with my senecaID:`108170218mysene
 - [./PartC/Explorecontainer.JPG](./PartC/Explorecontainer.JPG)
 ![Explore Container](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartC/Explorecontainer.JPG)
 
-### Part D - Publish the images
+### Part D - Publish The Images
 ### Step 1: Get an image 
 - [./PartD/Getimage.JPG](./PartD/Getimage.JPG)
 ![Get Image](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartD/Getimage.JPG)
