@@ -10,7 +10,7 @@
 1. [Part A - Working with Docker Desktop](#Part-A---Working-with-Docker-Desktop)
 2. [Part B - Run The container](#Part-B---Run-The-Container)
 3. [Part C - Run Docker Hub Image](#Part-C---Run-Docker-Hub-Image)
-4. [Part D - Publish the Images](#[Part-D---Publish-the-Images)
+4. [Part D - Publish the Images](#Part-D---Publish-the-Images)
 
 ### Part A - Working with Docker Desktop
 Atfer installing and creating `Docker Desktop` with my senecaID:`108170218myseneca` 
