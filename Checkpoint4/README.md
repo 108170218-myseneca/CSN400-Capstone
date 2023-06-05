@@ -14,7 +14,7 @@
 
 ### Part A - Working with Docker Desktop
 Atfer installing and creating `Docker Desktop` with my senecaID:`108170218myseneca` 
-- [my docker desktop](https://hub.docker.com/u/108170218myseneca). I have opened `VSCode` and proceeded to verify the Docker version by running the command `docker --version`, which returned the following result: `Docker version 24.0.2, build cb74dfc`.
+- [my docker hub account](https://hub.docker.com/u/108170218myseneca). I have opened `VSCode` and proceeded to verify the Docker version by running the command `docker --version`, which returned the following result: `Docker version 24.0.2, build cb74dfc`.
 
 ### Step 1: Set up the guide
 - [./PartA/guidesetup.JPG](./PartA/guidesetup.JPG)
