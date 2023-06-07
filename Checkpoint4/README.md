@@ -62,6 +62,7 @@ Atfer installing and creating `Docker Desktop` with my senecaID:`108170218mysene
 ![Verify Container](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartB/Verifycontainer.JPG)
 
 ### Part C - Run Docker Hub Image
+*All the screenshots that representing the output of every step in Part C.*
 ### Step 1: Search for the image
 - [./PartC/Imagedocker.JPG](./PartC/Imagedocker.JPG)
 ![Verify Container](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartC/Imagedocker.JPG)
