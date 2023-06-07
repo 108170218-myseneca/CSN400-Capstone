@@ -76,7 +76,7 @@ Atfer installing and creating `Docker Desktop` with my senecaID:`108170218mysene
 ![Explore Container](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartC/Explorecontainer.JPG)
 
 ### Part D - Publish the Images
-*Each step includes a screenshot of the corresponding output. and i have run this commad to rename the image `docker tag docker/welcome-to-docker 108170218myseneca/welcome-to-docker`
+*Each step includes a screenshot of the corresponding output. and i have run this commad to rename the image `docker tag docker/welcome-to-docker 108170218myseneca/welcome-to-docker`*
 ### Step 1: Get an image 
 - [./PartD/Getimage.JPG](./PartD/Getimage.JPG)
 ![Get Image](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartD/Getimage.JPG)
