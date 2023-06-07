@@ -41,7 +41,7 @@ Atfer installing and creating `Docker Desktop` with my senecaID:`108170218mysene
 
 ### Part B - Run The Container
 *Combining the `Dockerfile` into the submission.*
-- [./Checkpoint4/Dockerfile](./Checkpoint4/Dockerfile)
+- [./Dockerfile](./Dockerfile)
 
 *The outputs from all steps in Part B.*
 ### Step 1: Get the sample application
