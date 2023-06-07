@@ -40,7 +40,10 @@ Atfer installing and creating `Docker Desktop` with my senecaID:`108170218mysene
 
 
 ### Part B - Run The Container
-*Combining the `Dockerfile` with the outputs from all steps in Part B.*
+*Combining the `Dockerfile` into the submission.*
+- [./Checkpoint4/Dockerfile](./Checkpoint4/Dockerfile)
+
+*The outputs from all steps in Part B.*
 ### Step 1: Get the sample application
 - [./PartB/clonedocker.JPG](./PartB/clonedocker.JPG)
 ![Clone Docker](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartB/clonedocker.JPG)
