@@ -7,10 +7,10 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ### Table of Contents
-    - [Part A - Containerize an application](#part-a---containerize-an-application)
-    - [Part B - Share the application](#part-b---share-the-application)
-    - [Part C - Persist the DB](#part-c---persist-the-db)
-    - [Part D - Multi container apps](#part-d---multi-container-apps)
+- [Part A - Containerize an application](#Part-A---Containerize-an-application)
+- [Part B - Share the application](#Part-B---Share-the-application)
+- [Part C - Persist the DB](#Part-C---Persist-the-DB)
+- [Part D - Multi container apps](#Part-D---Multi-container-apps)
 
 
 ### Part A - Containerize an application
@@ -130,12 +130,9 @@ $ docker volume inspect todo-db
 ```
 
 ### Part D - Multi container apps
-The output of `SHOW DATABASES;`
-```bash
-#!/bin/bash
 
-![Show Database](./showdatabase.png)
-```
+The output of `SHOW DATABASES;`
+![Show Database](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/showdatabase.png)
 
 The output of `dig mysql`
 
@@ -163,12 +160,8 @@ mysql.                  600     IN      A       172.18.0.2
 ```
 
 The output of `SELECT * from todo_items;`
+![SELECT from Todo](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/selectfromtodo.JPG)
 
-```bash
-#!/bin/bash
-
-![Select items](./selectfromtodo.JPG)
-```
 
 
 
