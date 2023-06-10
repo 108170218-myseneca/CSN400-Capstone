@@ -67,7 +67,7 @@ Which port in `localhost` must be used to reach it?
 - **Question6:** 
 What the difference between the `Containers` listed?
 
-🐳 The following `Countainers` have been created and mapping to different ports and allow the containers to be accessed using different ports:
+🐳 The following `Containers` have been created and mapping to different `Ports` and allow the `Containers` to be accessed using different ports:
 - The first `Container` is mapped from the `Port 1000` of the host machine to `Port 3000` of the `Container`
 - The second `Container` is mapped from the `Port 3000` of the host machine to `Port 3000` of the `Container`
 
@@ -82,7 +82,7 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED          STATU
 - **Question7:**
 How long did it take to create the image after you updated the code?
 
-🐳 Creating the image after updating the code will depend on various factors such as the complexity of the changes, the performance of the host machine, and the size of the image. However, the speed of building an image will vary when reusing the existing layers but will not be too long than the initial build.
+🐳 Creating the image after updating the code will depend on various factors such as the complexity of the changes, the performance of the `host machine`, and the size of the image. However, the speed of building an image will vary when reusing the existing layers but will not be too long than the initial build.
 
 - **Question8:**
 What is the error message you get when you try to run the app container?
