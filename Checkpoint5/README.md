@@ -17,7 +17,7 @@
 - **Question1:** 
 Why the build time will be different from first time?
 
-🐳 The build time for the command `docker build -t getting-started . ` can differ when executed again due to `Docker's` layer-based architecture. Each instruction in the `Dockerfile` creates a separate layer. If the image is rebuilt without modifying the instructions, `Docker` can reuse the existing layers from the previous build. 
+🐳 The build time for the command `docker build -t getting-started .` can differ when executed again due to docker's layer-based architecture. Each instruction in the `Dockerfile` creates a separate layer. If the image is rebuilt without modifying the instructions, `Docker` can reuse the existing layers from the previous build. 
 
 Why the number of steps are also different?
 
@@ -49,17 +49,15 @@ What are the `-d` and `-p` flags?
 
 🐳 The `-d` stands for "detached" mode, which it runs the `Container` in the background and returns the command immediately and allowing to use the terminal for other tasks, However, in this task I have noticed that the `Container` was runing in `Ducker desktop` while i was not able to use the terminal.
 
-🐳 The -p flag serves the purpose of specifying port mapping, enabling the establishment of a connection between the ports of a container and those on the host machine. This functionality empowers you to create and configure the necessary communication channels between the container and the host environment, facilitating seamless interaction between the two entities
+🐳 The `-p` flag serves the purpose of specifying port mapping, enabling the establishment of a connection between the ports of a `Container` and those on the host machine. This functionality empowers you to create and configure the necessary communication channels between the `Container` and the host environment, facilitating seamless interaction between the two entities.
  
 ```bash
 $ docker run -p 1000:3000 getting-started
 
 Using sqlite database at /etc/todos/todo.db
 Listening on port 3000
-....
-
+...
 ````
-
 
 - **Question5:**
 Which port in `localhost` must be used to reach it?
@@ -67,6 +65,7 @@ Which port in `localhost` must be used to reach it?
 🐳 The `Port 1000` is set for accessing the `Container` on `localhost`, because this port has been specifically mapped to the `Container`, which is a direct pathway for communication port. However, the data transmitted to `Port 1000` on the host machine is redirected to the port of the `Container`
 
 - **Question6:** 
+What the difference between the `Containers` listed?
 
 🐳 The following `Countainers` have been created and mapping to different ports and allow the containers to be accessed using different ports:
 - The first `Container` is mapped from the `Port 1000` of the host machine to `Port 3000` of the `Container`
@@ -81,10 +80,12 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED          STATU
 ```
 
 - **Question7:**
+How long did it take to create the image after you updated the code?
 
 🐳 Creating the image after updating the code will depend on various factors such as the complexity of the changes, the performance of the host machine, and the size of the image. However, the speed of building an image will vary when reusing the existing layers but will not be too long than the initial build.
 
 - **Question8:**
+What is the error message you get when you try to run the app container?
 
 🐳 After runing the command `docker run -dp 3000:3000 getting-started` which is attempting an error. However, the error message indicates that the port 3000 is already in use by another `Container` on the host machine.
 
@@ -96,6 +97,7 @@ docker: Error response from daemon: driver failed programming external connectiv
 ```
 
 - **Question9:**
+The output of `Todo app` showing the listed items:
 - [./Todoapp.JPG](./Todoapp.JPG)
 ![Todo app](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Todoapp.JPG)
 
