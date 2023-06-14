@@ -98,16 +98,16 @@ docker: Error response from daemon: driver failed programming external connectiv
 
 - **Question9:**
 The output of `Todo app` showing the listed items:
-- [./Todoapp.JPG](./Todoapp.JPG)
-![Todo app](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Todoapp.JPG)
+- [./Images/Todoapp.JPG](./Images/Todoapp.JPG)
+![Todo app](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Images/Todoapp.JPG)
 
 ### Part B - Share the application
 
-- [./repopush.JPG](./repopush.JPG)
-![Repo push](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/repopush.JPG)
+- [./Images/repopush.JPG](./Images/repopush.JPG)
+![Repo push](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Images/repopush.JPG)
 
-- [./Newinstance.JPG](./Newinstance.JPG)
-![Image in new Instance](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Newinstance.JPG)
+- [./Images/Newinstance.JPG](./Images/Newinstance.JPG)
+![Image in new Instance](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Images/Newinstance.JPG)
 
 ### Part C - Persist the DB
 The output of `docker volume inspect todo-db`
@@ -130,7 +130,7 @@ $ docker volume inspect todo-db
 ### Part D - Multi container apps
 
 The output of `SHOW DATABASES;`
-![Show Database](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/showdatabase.JPG)
+![Show Database](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Images/showdatabase.JPG)
 
 The output of `dig mysql`
 
@@ -158,7 +158,7 @@ mysql.                  600     IN      A       172.18.0.2
 ```
 
 The output of `SELECT * from todo_items;`
-![SELECT from Todo](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/selectfromtodo.JPG)
+![SELECT from Todo](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint5/Images/selectfromtodo.JPG)
 
 
 
