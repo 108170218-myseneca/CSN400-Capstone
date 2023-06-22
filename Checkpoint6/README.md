@@ -71,12 +71,13 @@ az network vnet subnet create \
 
 ### Part B - Working in Azure CLI Bash
 
-1.The following command can be used to enumerate all the VNETs `az network vnet list --output json > vnet_list.json`, to get this output: [./jsonfiles/vnet_list.json](./jsonfiles/vnet_list.json)
+1. To obtain the specified output, I have utilized the following command `az network vnet list --output json > vnet_list.json` to enumerate all the VNETs.[./jsonfiles/vnet_list.json](./jsonfiles/vnet_list.json)
 
-2. The details that i used to have the output in `json` format is: `az network vnet show --name Student-954177-vnet --resource-group Student-RG-954177 --output json > student_vnet.json`. [./jsonfiles/student_vnet.json](./jsonfiles/student_vnet.json)
+2. To retrieve the output in JSON format, I utilized the following details: `az network vnet show --name Student-954177-vnet --resource-group Student-RG-954177 --output json > student_vnet.json`. [./jsonfiles/student_vnet.json](./jsonfiles/student_vnet.json)
 
 3. The command to retrieve a list of all peerings, and the output in table format to a file. `az network vnet peering list --output table > peerings.tbl`: [./tbl/peerings.tbl](./tblfiles/peerings.tbl)
-4. To obtain the details of both `Router-18` and `SN1`, we use the following command: `az network vnet subnet show --name SN1 --vnet-name Router-18 --resource-group Student-RG-954177 --query '{Subnet: subnet, RouteAssociations: routeAssociations}' --output json
+
+4. To obtain the details of both `Router-18` and `SN1`, we use the following command: `az network vnet subnet show --name SN1 --vnet-name Router-18 --resource-group Student-RG-954177 --query '{Subnet: subnet, RouteAssociations: routeAssociations}' --output json`
 
 ```json
 {
