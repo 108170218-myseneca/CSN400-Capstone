@@ -15,7 +15,7 @@
 ### Part A - Creating Network Resources using Azure CLI
 All the lines that I have updated in Network Configuration file [./bash-scripts/network_config.sh](./bash-scripts/network_config.sh)
 
-```json
+```bash
 RG_NAME="Student-RG-954177"                           # your student group
 LOCATION="canadaeast"                                        # your location
 ID="18"                                                                    #unique ID assigned to you
@@ -37,7 +37,7 @@ what does `if [[ ! $(az group list -o tsv --query "[?name=='$RG_NAME']") ]]` do?
 Why is it crucial to check if a resource exists before creating it, and what `bash syntax` do you use to test this? Furthermore, how do you check if a virtual network `vnet` exists in the `vnet_create.sh script`? 
 To check if the resources exists before creating again to avoid conflicts and duplication. However, the `bash syntax` used to test the existence of the resources is `if`, with `-f` option to check if the file exists:
 
-```json
+```bash
 if [[ $(az network vnet list -g $RG_NAME -o tsv --query "[?name=='$vnet']") ]]
 then
     echo "VNet exists"
@@ -49,7 +49,7 @@ fi
 - **Question3:**
 What is the Azure CLI command to create vnet? Give the specific command as per your environment and unique ID configuration. What are the required and what are the optional parameters that you need to pass to it?
 
-```json
+```bash
 az network vnet create \
     --resource-group Student-RG-954177 \
     --name Student-954177-vnet \
@@ -61,7 +61,7 @@ az network vnet create \
 - **Question4:**
 What is the Azure CLI command to create subnet? Give the specific command as per your environment and unique ID configuration. What are the required and what are the optional parameters that you need to pass to it?
 
-```json
+```bash
 az network vnet subnet create \
     --resource-group Student-RG-954177 \
     --vnet-name Student-954177-vnet \
