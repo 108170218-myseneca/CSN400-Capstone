@@ -135,9 +135,9 @@ When do you need to configure and use Virtual Network Gateways?
 
 4. To obtain a list of all currently running virtual machines (VMs), execute the command `az vm list --output table`. And to ensure that all VMs are deleted, we can run the `delete_all_vm.sh` file. And after executing the deletion script and running `az vm list --output table` again, the output will only display an empty array `[]`.
 
-[./Images/deletedVMs.JPG](./Images/deletedVMs.JPG)
+[./Images/deletedVMS.JPG](./Images/deletedVMS.JPG)
 
-![Deleted VMs](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Images/deletedVMs.JPG)
+![deleted VMs](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Images/deletedVMs.JPG)
 
 5. The command to use to show the _auto shutdown_ of `LS-18` is `az vm show --resource-group Student-RG-954177 --name LS_18 --query 'autoShutdownSchedule'`
 
