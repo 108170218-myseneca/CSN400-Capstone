@@ -44,14 +44,8 @@ WC-18             Student-RG-954177               Canadaeast
 WS-18              Student-RG-954177               Canadaeast  
 ```               
 
-### The output of the command  <<<<  `az network nic list --output table`
-
-<details>
-
-<summary><b> output of nic list</b></summary>
-
+3. The output of the command is `az network nic list --output table`
 ```bash
-
 EnableAcceleratedNetworking       EnableIPForwarding       Location             MacAddress                 Name        NicType                Primary                ---------------------------------------        ---------------------------      ---------------        -----------------------         ----------      -------------------     -------------
 False                                              False                             canadaeast        00-22-48-6D-63-22       lr-29060     Standard              True  
 
@@ -80,9 +74,6 @@ ProvisioningState             ResourceGroup                ResourceGuid         
 -----------------------             ---------------------                --------------------                                               ------------------------------------ 
 Succeeded                       Student-RG-954177         76cc57a1-4e53-4ce8-aaf9-bedc1b474891       False
 ```
-
-<details>
-
 
 4. The output of the command `az network nsg list --ouput table`
 
@@ -167,7 +158,7 @@ sudo systemctl status iptables
 ![Chain Input](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/Chaininput.JPG)
 
 - **Question5:**
-The command that shows the hostname in `LR-18` and `LS-18  as follows `hostname`
+The command that shows the hostname in `LR-18` and `LS-18` as follows:
 
 [./Images/hostnameLR-18.JPG](./Images/hostnameLR-18.JPG)
 ![Hostname LR 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/hostnameLR-18.JPG)
