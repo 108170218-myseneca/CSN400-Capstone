@@ -80,7 +80,7 @@ LS-18_disk1_136c9bfb8be94711813bac2e4f8229a2   Student-RG-954177    canadaeast  
 ### Part B - Enable IP Forwarding - Using Portal
 
 - **Question1:**
-The command that i used to extract the output as `json` format is: `az network nic ip-config show --name ip-forwarding --nic-name lr-29060 --resource-group Student-RG-954177 --query "enableIPForwarding" --output json`
+The command that i used to extract the output as `json` format it can be run as follow: `az network nic ip-config show --name ip-forwarding --nic-name lr-29060 --resource-group Student-RG-954177 --query "enableIPForwarding" --output json`
 
 
 - **Question2:**
