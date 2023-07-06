@@ -21,7 +21,7 @@
 - **Question1:** 
 What is the difference between Windows machine NSG and Linux machine NSG rules? Describe the difference? Do you need a rule for `ssh` or `rdp`? What happens if you delete specific `ssh` and `rdp` rules?
 
-> NSGs are used to control network traffic that are allowed or denied passing to virtual machines `VMs` or form `VMs` by defining inbound and outbound security rules such as port numbers, destination IP addresses. However, for `Windows machines` we use the Remote Desktop Protocol (RDP) that uses TCP port 3389 by default for remote administration, while Linux machines use the Secure Shell (SSH) that uses TCP port 22. such as web servers `HTTPs` or database servers as `MySQL`. And if SSH rule for a Linux machine has been deleted will block the remote access via `SSH`, and the same result for Windows machine if the `RDP` rule has been removed as well.
+> `NSGs` are used to control network traffic that are allowed or denied passing to virtual machines `VMs` or vice-versa by defining inbound and outbound security rules such as port numbers, destination IP addresses. However, for `Windows machines` we use the Remote Desktop Protocol (RDP) that uses `TCP` port `3389` by default for remote administration, while Linux machines use the Secure Shell `SSH` that uses `TCP` port `22`. such as web servers `HTTPs` or database servers as `MySQL`. And if `SSH` rule for a Linux machine has been deleted will block the remote access via `SSH`, and the same result for Windows machine if the `RDP` rule has been removed as well.
 
 - **Question2:**
 The extracted Embed details from the `Azure Bash CLI` in the Portal that provide a comprehensive list of virtual machines, network security groups `NSGs`, network interface cards `NICs`, and `disks`.
