@@ -169,8 +169,8 @@ sudo systemctl status iptables
 - **Question5:**
 The command that shows the hostname in `LR-18` and `LS-18  as follows `hostname`
 
-[./Images/hostname-LR-18.JPG](./Images/hostname-LR-18.JPG)
-![Hostname LR 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/hostname-LR-18.JPG)
+[./Images/hostnameLR-18.JPG](./Images/hostnameLR-18.JPG)
+![Hostname LR 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/hostnameLR-18.JPG)
 
 [./Images/hostnameLS-18.JPG](./Images/hostnameLS-18.JPG)
 ![Hostname LS 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/hostnameLS-18.JPG)
