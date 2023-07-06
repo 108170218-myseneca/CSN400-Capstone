@@ -29,81 +29,51 @@ The extracted Embed details from the `Azure Bash CLI` in the Portal that provide
 1. The output of the command `az group list -o table`
 
 ```bash
-Name                                       Location                     Status
--------------------------------            ----------------               -----------------
-Student-RG-954177                 Canadaeast               Succeeded
+Name                                      Location                  Status
+---------------------                     -------------             ----------
+Student-RG-954177                         Canadaeast                Succeeded
 ```
 
 2. The output of the command `az vm list --output table`
 ```bash
-Name                  ResourceGroup                   Location                
--------                   -------------------                     -------------              
+Name                ResourceGroup                  Location                
+-------             -------------------            -------------              
 LR-18               Student-RG-954177               Canadaeast             
 LS-18               Student-RG-954177               Canadaeast  
-WC-18             Student-RG-954177               Canadaeast  
-WS-18              Student-RG-954177               Canadaeast  
+WC-18               Student-RG-954177               Canadaeast  
+WS-18               Student-RG-954177               Canadaeast  
 ```               
 
 3. The output of the command is `az network nic list --output table`
 ```bash
-EnableAcceleratedNetworking       EnableIPForwarding       Location             MacAddress                 Name        NicType                Primary                ---------------------------------------        ---------------------------      ---------------        -----------------------         ----------      -------------------     -------------
-False                                              False                             canadaeast        00-22-48-6D-63-22       lr-29060     Standard              True  
-
-ProvisioningState             ResourceGroup                ResourceGuid                                                VnetEncryptionSupported
------------------------             ---------------------                --------------------                                               ------------------------------------ 
-Succeeded                       Student-RG-954177         76cc57a1-4e53-4ce8-aaf9-badc1b474917       False
-
-EnableAcceleratedNetworking       EnableIPForwarding       Location             MacAddress                 Name        NicType                Primary                ---------------------------------------        ---------------------------      ---------------        -----------------------         ----------      -------------------     -------------
-False                                              False                             canadaeast        00-22-48-6D-64-11       ls-34356     Standard              True  
-
-ProvisioningState             ResourceGroup                ResourceGuid                                                VnetEncryptionSupported
------------------------             ---------------------                --------------------                                               ------------------------------------ 
-Succeeded                       Student-RG-954177         76cc57a1-4e53-4ce8-aaf9-fadc1b474927       False
-
-EnableAcceleratedNetworking       EnableIPForwarding       Location             MacAddress                 Name        NicType                Primary                ---------------------------------------        ---------------------------      ---------------        -----------------------         ----------      -------------------     -------------
-False                                              False                             canadaeast        00-22-48-6D-33-17       wc-18393     Standard              True  
-
-ProvisioningState             ResourceGroup                ResourceGuid                                                VnetEncryptionSupported
------------------------             ---------------------                --------------------                                               ------------------------------------ 
-Succeeded                       Student-RG-954177         76cc57a1-4e53-4ce8-aaf9-eadc1b474920       False
-
-EnableAcceleratedNetworking       EnableIPForwarding       Location             MacAddress                 Name        NicType                Primary                ---------------------------------------        ---------------------------      ---------------        -----------------------         ----------      -------------------     -------------
-False                                              False                             canadaeast        00-22-48-6D-43-19       ws-56781     Standard              True  
-
-ProvisioningState             ResourceGroup                ResourceGuid                                                VnetEncryptionSupported
------------------------             ---------------------                --------------------                                               ------------------------------------ 
-Succeeded                       Student-RG-954177         76cc57a1-4e53-4ce8-aaf9-bedc1b474891       False
+EnableAcceleratedNetworking   EnableIPForwarding   Location     MacAddress         Name       NicType    Primary   ProvisioningState   ResourceGroup       ResourceGuid                              VnetEncryptionSupported
+--------------                -------------        --------     ---------          --------   --------   ------    --------------      -------------       ----------------                          ---------------
+False                         False                canadaeast   00-22-48-6D-63-22  lr-29060   Standard   True      Succeeded           Student-RG-954177   76cc57a1-4e53-4ce8-aaf9-badc1b474917      False                                               
+False                         False                canadaeast   00-22-48-6D-64-11  ls-34356   Standard   True      Succeeded           Student-RG-954177   561c57a1-4e53-4ce8-aaf9-fadc1b474126      False
+False                         False                canadaeast   00-22-48-6D-33-17  wc-18393   Standard   True      Succeeded           Student-RG-954177   29ac57a1-4e53-4ce8-aaf9-eadc1b474920      False
+False                         False                canadaeast   00-22-48-6D-43-19  ws-56781   Standard   True      Succeeded           Student-RG-954177   94cb57a1-4e53-4ce8-aaf9-bedc1b474891      False
 ```
 
 4. The output of the command `az network nsg list --ouput table`
-
 ```bash
-Location              Name                      ProvisioningState                  ResourceGroup                     ResourceGuid
-----------                --------------              -----------------------                  --------------------                       --------------------
-canadaeast        LR-18-nsg                 Succeeded                           Student-RG-954177               77f565be-bcf1-429b-8790-5dee6d117e12
-canadaeast        LR-NSG-18               Succeeded                           Student-RG-954177               67a4297f-8a13-4d9b-8231-94a784bcc1f6
-canadaeast        LR18nsg397             Succeeded                           Student-RG-954177               891ee53b-9f06-4e09-b0fe-5be84af448c2
-canadaeast        LS-18-nsg                 Succeeded                           Student-RG-954177               3dd4e2c2-7d6f-4a76-8f5e-c39273edf5e7
-canadaeast        WC18nsg499            Succeeded                           Student-RG-954177               abe52190-1227-4ab4-9f4e-87d05b66e2b8               canadaeast        WC18nsg758            Succeeded                           Student-RG-954177                f0d0f13a-187f-4712-bd8c-2f2ed83255b3                canadaeast        WC18nsg778            Succeeded                           Student-RG-954177                62c6d7c0-3b10-4e49-a37b-5e2e55ad168c               canadaeast        WC18nsg921            Succeeded                           Student-RG-954177                c8111a6d-fa75-49ed-bf48-5a7f850e5d3f               canadaeast        WC18nsg991            Succeeded                           Student-RG-954177                2db0c1f5-1f12-4aef-9b9a-aa457dfc8bc8
-canadaeast        WS-NSG-18              Succeeded                           Student-RG-954177               eadff8ab-8eef-44f6-aa71-2fcbe741d0ab
-canadaeast        WS18nsg739             Succeeded                           Student-RG-954177               98f565be-bcf1-429b-8790-5dee6d171c10                
+Location       Name          ProvisioningState       ResourceGroup           ResourceGuid
+----------     --------      -----------------       --------------          --------------------
+canadaeast     LR-18-nsg     Succeeded               Student-RG-954177       77f565be-bcf1-429b-8790-5dee6d117e12
+canadaeast     LR-NSG-18     Succeeded               Student-RG-954177       67a4297f-8a13-4d9b-8231-94a784bcc1f6
+canadaeast     LR18nsg397    Succeeded               Student-RG-954177       891ee53b-9f06-4e09-b0fe-5be84af448c2
+canadaeast     LS-18-nsg     Succeeded               Student-RG-954177       3dd4e2c2-7d6f-4a76-8f5e-c39273edf5e7
+canadaeast     WC18nsg499    Succeeded               Student-RG-954177       521abe90-1227-4ab4-9f4e-87d05b66e2b8               canadaeast     WC18nsg758    Succeeded               Student-RG-954177       70d0f13a-187f-4712-bd8c-2f2ed83255b3                canadaeast     WC18nsg778    Succeeded               Student-RG-954177       62c6d7c0-3b10-4e49-a37b-5e2e55ad168c               canadaeast     WC18nsg921    Succeeded               Student-RG-954177       38111a6d-fa75-49ed-bf48-5a7f850e5d3f               canadaeast     WC18nsg991    Succeeded               Student-RG-954177       2db0c1f5-1f12-4aef-9b9a-aa457dfc8bc8
+canadaeast     WS-NSG-18     Succeeded               Student-RG-954177       936ff8ab-8eef-44f6-aa71-2fcbe741d0ab
+canadaeast     WS18nsg739    Succeeded               Student-RG-954177       98f565be-bcf1-429b-8790-5dee6d171c10                
 ````
 5. The output of the command `az disk list --output table`
-
 ```bash
-Name                                              ResourceGroup            Location          Zones              Sku                    SizeGb          ProvisioningState    OsType
--------------------------------------            ---------------                   ----------           -------              ------------             --------             -------------------         --------
-WC-18_disk1_245c9bfb8be
-94711813bee2e4f8229d5               Student-RG-954177       canadaeast                           Standard_LRS       127               Succeeded            Windows
-
-LR-18_disk1_782c9bfb8be
-94711813bce2e4f8229b1               Student-RG-954177       canadaeast                           Standard_LRS       1024               Succeeded           Linux
-
-WS-18_disk1_892c9bfb8be
-94711813bae2e4f8229d9               Student-RG-954177       canadaeast                           Standard_LRS       127               Succeeded            Windows
-
-LS-18_disk1_136c9bfb8be
-94711813bac2e4f8229a2               Student-RG-954177       canadaeast                           Standard_LRS       1024              Succeeded            Linux
+Name                                           ResourceGroup        Location        Sku        SizeGb    ProvisioningState    OsType
+------                                         ---------------      ----------     ------      --------   ----------------    ----
+WC-18_disk1_245c9bfb8be94711813bee2e4f8229d5   Student-RG-954177    canadaeast    Standard_LRS   127        Succeeded        Windows
+LR-18_disk1_782c9bfb8be 94711813bce2e4f8229b1  Student-RG-954177    canadaeast    Standard_LRS   1024       Succeeded        Linux
+WS-18_disk1_892c9bfb8be94711813bae2e4f8229d9   Student-RG-954177    canadaeast    Standard_LRS   127        Succeeded        Windows
+LS-18_disk1_136c9bfb8be94711813bac2e4f8229a2   Student-RG-954177    canadaeast    Standard_LRS   1024       Succeeded        Linux
 ```
 
 
