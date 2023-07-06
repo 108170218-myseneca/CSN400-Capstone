@@ -36,8 +36,8 @@ Student-RG-954177                 Canadaeast               Succeeded
 
 2. The output of the command `az vm list --output table`
 ```bash
-Name                  ResourceGroup                   Location                Zones
--------                   -------------------                     -------------              ---------
+Name                  ResourceGroup                   Location                
+-------                   -------------------                     -------------              
 LR-18               Student-RG-954177               Canadaeast             
 LS-18               Student-RG-954177               Canadaeast  
 WC-18             Student-RG-954177               Canadaeast  
@@ -146,8 +146,11 @@ sudo yum remove firewalld
 - **Question2:**
 The command that we use to check the status of `iptables` for linux `VMs` is: `sudo systemctl status iptables`
 
-[./Images/iptablesstatus.JPG](./Images/iptablesstatus.JPG)
-![iptables status](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/iptablesstatus.JPG)
+[./Images/iptablesstatusLR-18.JPG](./Images/iptablesstatusLR-18.JPG)
+![iptables status LR 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/iptablesstatusLR-18.JPG)
+
+[./Images/iptablesstatusLS-18.JPG](./Images/iptablesstatusLS-18.JPG)
+![iptables status LS 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/iptablesstatusLS-18.JPG)
 
 - **Question3:**
 The command that we use to check chain input is: `sudo iptables -L --line-numbers`
@@ -166,8 +169,8 @@ sudo systemctl status iptables
 - **Question5:**
 The command that shows the hostname in `LR-18` and `LS-18  as follows `hostname`
 
-[./Images/hostnameLR-18.JPG](./Images/hostnameLR-18.JPG)
-![Hostname LR 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/hostnameLR-18.JPG)
+[./Images/hostname-LR-18.JPG](./Images/hostname-LR-18.JPG)
+![Hostname LR 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/hostname-LR-18.JPG)
 
 [./Images/hostnameLS-18.JPG](./Images/hostnameLS-18.JPG)
 ![Hostname LS 18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/hostnameLS-18.JPG)
