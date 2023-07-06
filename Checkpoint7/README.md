@@ -71,7 +71,7 @@ canadaeast     WS18nsg739    Succeeded               Student-RG-954177       98f
 Name                                           ResourceGroup        Location        Sku        SizeGb    ProvisioningState    OsType
 ------                                         ---------------      ----------     ------      --------   ----------------    ----
 WC-18_disk1_245c9bfb8be94711813bee2e4f8229d5   Student-RG-954177    canadaeast    Standard_LRS   127        Succeeded        Windows
-LR-18_disk1_782c9bfb8be 94711813bce2e4f8229b1  Student-RG-954177    canadaeast    Standard_LRS   1024       Succeeded        Linux
+LR-18_disk1_782c9bfb8be94711813bce2e4f8229b1   Student-RG-954177    canadaeast    Standard_LRS   1024       Succeeded        Linux
 WS-18_disk1_892c9bfb8be94711813bae2e4f8229d9   Student-RG-954177    canadaeast    Standard_LRS   127        Succeeded        Windows
 LS-18_disk1_136c9bfb8be94711813bac2e4f8229a2   Student-RG-954177    canadaeast    Standard_LRS   1024       Succeeded        Linux
 ```
