@@ -62,7 +62,7 @@ canadaeast     LR-18-nsg     Succeeded               Student-RG-954177       77f
 canadaeast     LR-NSG-18     Succeeded               Student-RG-954177       67a4297f-8a13-4d9b-8231-94a784bcc1f6
 canadaeast     LR18nsg397    Succeeded               Student-RG-954177       891ee53b-9f06-4e09-b0fe-5be84af448c2
 canadaeast     LS-18-nsg     Succeeded               Student-RG-954177       3dd4e2c2-7d6f-4a76-8f5e-c39273edf5e7
-canadaeast     WC18nsg499    Succeeded               Student-RG-954177       521abe90-1227-4ab4-9f4e-87d05b66e2b8               canadaeast     WC18nsg758    Succeeded               Student-RG-954177       70d0f13a-187f-4712-bd8c-2f2ed83255b3                canadaeast     WC18nsg778    Succeeded               Student-RG-954177       62c6d7c0-3b10-4e49-a37b-5e2e55ad168c               canadaeast     WC18nsg921    Succeeded               Student-RG-954177       38111a6d-fa75-49ed-bf48-5a7f850e5d3f               canadaeast     WC18nsg991    Succeeded               Student-RG-954177       2db0c1f5-1f12-4aef-9b9a-aa457dfc8bc8
+canadaeast     WC18nsg499    Succeeded               Student-RG-954177       521abe90-1227-4ab4-9f4e-87d05b66e2b8
 canadaeast     WS-NSG-18     Succeeded               Student-RG-954177       936ff8ab-8eef-44f6-aa71-2fcbe741d0ab
 canadaeast     WS18nsg739    Succeeded               Student-RG-954177       98f565be-bcf1-429b-8790-5dee6d171c10                
 ````
