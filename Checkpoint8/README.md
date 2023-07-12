@@ -144,7 +144,9 @@ The command that i used to extract the output `Mariadb` server is: `systemctl st
 - **Question2:**
 The output in `LR-18` that show iptables chains are usually empty, which can allow all incoming and outcoming traffic, while no rules are set to filter network traffic. However, the system will be vulnerable to attacks.
 
-[./logfiles/lr_iptables.log](./logfiles/lr_iptables.log)
+[./lmages/LR-18-emptyiptables.JPG](./lmages/LR-18-emptyiptables.JPG)
+![DailyCosts Resource1](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/LR-18-emptyiptables.JPG)
+
 
 - **Question3:**
 The command that shows the hostname in LR-18 is : `sudo hostnamectl status` or simply `hostname`
@@ -169,31 +171,31 @@ LS-18.CSN4002234.com
 
 1. [./Images/Resource1.JPG](./Images/Resource1.JPG)
 
-![DailyCosts Resource1](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/Resource1.JPG)
+![DailyCosts Resource1](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Resource1.JPG)
 
 2. [./Images/Service.JPG](./Images/Service.JPG)
 
-![DailyCosts Service](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/Service.JPG)
+![DailyCosts Service](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Service.JPG)
 
 3. [./Images/Resource2.JPG](./Images/Resource2.JPG)
 
-![DailyCosts Resource2](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/Resource2.JPG)
+![DailyCosts Resource2](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Resource2.JPG)
 
 4. [./Images/ServiceName.JPG](./Images/ServiceName.JPG)
 
-![Service Name](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/ServiceName.JPG)
+![Service Name](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/ServiceName.JPG)
 
 5. [./Images/ServiceFamily.JPG](./Images/ServiceFamily.JPG)
 
-![Service Family](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/ServiceFamily.JPG)
+![Service Family](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/ServiceFamily.JPG)
 
 6. [./Images/Product.JPG](./Images/Product.JPG)
 
-![Last Month Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/Product.JPG)
+![Last Month Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Product.JPG)
 
 7. [./Images/Dashboard.JPG](./Images/Dashboard.JPG)
 
-![Dashboard Sample-18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Images/Dashboard.JPG)
+![Dashboard Sample-18](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Dashboard.JPG)
 
 
 
