@@ -77,6 +77,7 @@ When you created `VMs` from Portal can you use an existing `NIC`? Do you conside
 What rules did we add to Network Security Groups (NSG)? What does each rule do?
 > Allow rule: This rule allows inbound or outbound traffic such as source IP, destination IP, port number, or protocol. It permits network communication between trusted resources that we have set them in the rule.
 > Deny rule: This rule blocks inbound or outbound traffic, which can deny network communication and be not able to procced to specific resources.
+> Priority rule: `NSGs` have a priority order for rules. which are the numbers that have lower numbers are in order of priority than higher numbers.
 
 - **Question5:**
 The command that lists all the Custom Images is : `az image list --output table` in the output table format.
