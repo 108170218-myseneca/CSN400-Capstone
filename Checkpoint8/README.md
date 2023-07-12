@@ -66,11 +66,11 @@ WS-18_disk1_35ab04841c6b42c98a7e69559364582a  STUDENT-RG-954177  canadaeast     
 - **Question2:**
 Why are you creating NIC separate from VM? What happens when you delete a VM, is that attached NIC automatically deleted? Why?
 
-> The reason why that the `NICs` are separate from `VMs`  in order to provide more flexibility and control over network configurations. However when we delete a `VM`, the attached NIC is not automatically deleted, also it may be used by other resources or `VMs`. for this the propre way to manage the process of deleting a `VM` and its attached `NIC`, is the first thing is to check if it is being used, so that can be safely deleted after the VM has been deleted. However, if the `NIC` is being used, it should be detached from the VM before the VM is deleted.
+> The reason why that the `NICs` are separate from `VMs`  in order to provide more flexibility and control over network configurations. However when we delete a `VM`, the attached NIC is not automatically deleted, also it may be used by other resources or `VMs`. for this the propre way to manage the process of deleting a `VM` and its attached `NIC`, is the first thing is to check if it is being used, so that can be safely deleted after the `VM` has been deleted. However, if the `NIC` is being used, it should be detached from the `VM` before the `VM` is deleted.
 
 - **Question3:**
-When you created VMs from Portal can you use an existing NIC? Do you consider this a limitation in working from Portal for VM creation?
-> It is not possible to use an existing NIC. This can be a limitation for users who want to use a specific NIC configuration for their VMs. In addition, the Azure portal also has other limitations when it comes to VM creation. However, for users are limited in their ability to customize VM configurations and the features that are available in Azure.
+When you created `VMs` from Portal can you use an existing `NIC`? Do you consider this a limitation in working from Portal for `VM` creation?
+> It is not possible to use an existing `NIC`. This can be a limitation for users who want to use a specific NIC configuration for their `VMs`. In addition, the Azure portal also has other limitations when it comes to `VM` creation. However, for users are limited in their ability to customize `VM` configurations and the features that are available in Azure.
 
 
 - **Question4:**
