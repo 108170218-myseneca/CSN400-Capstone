@@ -147,8 +147,8 @@ The command that i used to extract the output `Mariadb` server is: `systemctl st
 - **Question2:**
 The output in `LR-18` that show iptables chains are usually empty, which can allow all incoming and outcoming traffic, while no rules are set to filter network traffic. However, the system will be vulnerable to attacks.
 
-[./lmages/LR-18-emptyiptables.JPG](./lmages/LR-18-emptyiptables.JPG)
-![DailyCosts Resource1](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/LR-18-emptyiptables.JPG)
+[./lmages/Emptyiptables.JPG](./lmages/Emptyiptables.JPG)
+![LR 18 Empty iptables](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Emptyiptables.JPG)
 
 
 - **Question3:**
