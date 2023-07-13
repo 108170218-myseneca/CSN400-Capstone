@@ -100,6 +100,7 @@ V2                  canadaeast  ws-18-ver-10                  Succeeded         
 After deleting `VMs` using the script and running the command that lists all your VMs `az vm list --output table` it shows an empty output which means that all VMs were deleted successfully.
 
 [./Images/DeletedVMs.JPG](./Images/DeletedVMs.JPG)
+
 ![Deleted VMs](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/DeletedVMs.JPG)
 
 
@@ -147,9 +148,9 @@ The command that i used to extract the output `Mariadb` server is: `systemctl st
 - **Question2:**
 The output in `LR-18` that show iptables chains are usually empty, which can allow all incoming and outcoming traffic, while no rules are set to filter network traffic. However, the system will be vulnerable to attacks.
 
-[./lmages/Emptyiptables.JPG](./lmages/Emptyiptables.JPG)
-![LR 18 Empty iptables](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Emptyiptables.JPG)
+[./Images/Emptyiptables.JPG](./Images/Emptyiptables.JPG)
 
+![Empty iptables](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Emptyiptables.JPG)
 
 - **Question3:**
 The command that shows the hostname in LR-18 is : `sudo hostnamectl status` or simply `hostname`
