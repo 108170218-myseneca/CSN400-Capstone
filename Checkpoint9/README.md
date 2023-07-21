@@ -76,17 +76,17 @@ iptables -A FORWARD -p tcp -d 172.17.18.37 --dport 22 -j DROP
 
 ![DailyCosts Resource2](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/Resource2.JPG)
 
-4. [./Images/ServiceName.JPG](./Images/ServiceName.JPG)
+4. [./Images/ServiceName.jpg](./Images/ServiceName.jpg)
 
-![Service Name](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/ServiceName.JPG)
+![Service Name](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/ServiceName.jpg)
 
 5. [./Images/ServiceFamily.JPG](./Images/ServiceFamily.JPG)
 
 ![Service Family](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/ServiceFamily.JPG)
 
-6. [./Images/Product.JPG](./Images/Product.JPG)
+6. [./Images/Product.jpg](./Images/Product.jpg)
 
-![Last Month Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/Product.JPG)
+![Last Month Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/Product.jpg)
 
 7. [./Images/Dashboard.JPG](./Images/Dashboard.JPG)
 
