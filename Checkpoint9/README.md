@@ -52,7 +52,7 @@ scp -i sshkey.pem -P 22 192.168.18.36:~/ftp-mysql.pcap .
 
 ### Part C - Adjusting firewalls to DROP and LOG Traffic
 
-```json
+```bash
 # FTP
 iptables -A FORWARD -p tcp -d 172.17.18.36 --dport 21 -j LOG --log-prefix "Blocked FTP  packet: " --log-level 4
 iptables -A FORWARD -p tcp -d 172.17.18.36 --dport 21 -j DROP
