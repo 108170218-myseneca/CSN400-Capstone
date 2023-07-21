@@ -54,7 +54,7 @@ scp -i sshkey.pem -P 22 192.168.18.36:~/ftp-mysql.pcap .
 
 The `lr-drop-log.sh` file for firewalls to `DROP` and `LOG` Traffic:
 
-[./logfile/lr-drop-log.sh](./logfile/lr-drop-log.sh)
+[./logfile/lr-drop-log.log](./logfile/lr-drop-log.log)
 
 ```bash
 # FTP
@@ -66,7 +66,6 @@ iptables -A FORWARD -p tcp -d 172.17.18.37 --dport 22 -j LOG --log-prefix "Dropp
 iptables -A FORWARD -p tcp -d 172.17.18.37 --dport 22 -j DROP
 ```
 
-![Last Month Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/Product.jpg)
 
 ### click for the log content <<<<< lr drop log filtered log
 
@@ -120,6 +119,9 @@ Jul 21 15:04:22 LR-18 kernel: Blocked FTP TO WS-18: IN=eth0 OUT=eth0 MAC=00:22:4
 ```
 
 </details>
+
+
+![No Drop Log](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/NodropFiltered.JPG)
 
 
 ![Last Month Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/Product.jpg)
