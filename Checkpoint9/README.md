@@ -8,10 +8,12 @@
 
 ### Table of Contents
 
-1. [Part A - Logging and Analyzing DNS and HTTP Traffic](#Part-A---Logging-and-Analyzing-DNS-and-HTTP-Traffic)
-2. [Part B - Logging and Analyzing FTP and MySQL Traffic](#Part-B---Logging-and-Analyzing-FTP-and-MySQL-Traffic)
-3. [Part C - Adjusting firewalls to DROP and LOG Traffic](#Part-C---Adjusting-firewalls-to-DROP-and-LOG-Traffic)
-4. [Part D - Azure Cost Analysis Charts](#Part-D---Azure-Cost-Analysis-Charts)
+- [Checkpoint9 Submission](#checkpoint9-submission)
+    - [Table of Contents](#table-of-contents)
+    - [Part A - Logging and Analyzing DNS and HTTP Traffic](#part-a---logging-and-analyzing-dns-and-http-traffic)
+    - [Part B - Logging and Analyzing FTP and MySQL Traffic](#part-b---logging-and-analyzing-ftp-and-mysql-traffic)
+    - [Part C - Adjusting firewalls to DROP and LOG Traffic](#part-c---adjusting-firewalls-to-drop-and-log-traffic)
+    - [Part D - Azure Cost Analysis Charts](#part-d---azure-cost-analysis-charts)
 
 ### Part A - Logging and Analyzing DNS and HTTP Traffic
 
@@ -86,7 +88,7 @@ iptables -A FORWARD -p tcp -d 172.17.18.37 --dport 22 -j DROP
 
 6. [./Images/Product.JPG](./Images/Product.JPG)
 
-![Last Month Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/Product.JPG)
+![Product](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/Product.JPG)
 
 7. [./Images/Dashboard.JPG](./Images/Dashboard.JPG)
 
