@@ -72,9 +72,11 @@ iptables -A FORWARD -p tcp -d 172.17.18.37 --dport 22 -j DROP
 
 ![No Drop Filtered](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Images/NodropFiltered.JPG)
 
-### click for the log content <<<<< lr-drop-log-filtered.log
+3. The `lr-drop-log-filtered.log` file.
 
 [./logfile/lr-drop-log-filtered.log](./logfile/lr-drop-log-filtered.log)
+
+### click for the log content <<<<< lr-drop-log-filtered.log
 
 <details>
 
