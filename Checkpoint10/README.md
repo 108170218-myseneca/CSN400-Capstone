@@ -134,6 +134,9 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 
 1. The content of the file `masqueraded-logged.log`
+
+[./logfiles/masqueraded-logged.log](./logfiles/masqueraded-logged.log)
+
 ```bash
 
 # HTTP Hub on Windows Server 80
