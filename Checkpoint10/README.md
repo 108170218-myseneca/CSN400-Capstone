@@ -9,10 +9,12 @@
 ### Table of Contents
 
 
-1. [Part A - Route Table Updates](#Part-A---Route-Table-Updates)
-2. [Part B - Port Forwarding Basic Connectivity](#Part-B---Port-Forwarding-Basic-Connectivity)
-3. [Part C - Logging-And-Isolating Masqueraded Packets](#Part-C---Logging-and-Isolating-Masqueraded-Packets)
-4. [Part D - Azure Cost Analysis Charts](#Part-D---Azure-Cost-Analysis-Charts)
+- [Checkpoint10 Submission](#checkpoint10-submission)
+    - [Table of Contents](#table-of-contents)
+    - [Part A - Route Table Updates](#part-a---route-table-updates)
+    - [Part B - Port Forwarding Basic Connectivity](#part-b---port-forwarding-basic-connectivity)
+    - [Part C - Logging-And-Isolating Masqueraded Packets](#part-c---logging-and-isolating-masqueraded-packets)
+    - [Part D - Azure Cost Analysis Charts](#part-d---azure-cost-analysis-charts)
 
 
 ### Part A - Route Table Updates
@@ -71,7 +73,7 @@ AddressPrefix     HasBgpOverride    Name              NextHopIpAddress    NextHo
 ```
 ### Part B - Port Forwarding Basic Connectivity
 
-1. [./logfile/nat-basic.txt](./logfile/nat-basic.txt)
+1. [./logfiles/nat-basic.txt](./logfiles/nat-basic.txt)
 ```bash
 # to flush NAT tables
 iptables -t nat -F
@@ -96,7 +98,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 2. The `nat_basic-connectivity.sh` file that contains Basic Connectivity is:
 
-[./logfile/nat-basic-connectivity.txt](./logfile/nat-basic-connectivity.txt)
+[./logfiles/nat-basic-connectivity.txt](./logfiles/nat-basic-connectivity.txt)
 
 ```bash
 # to flush NAT tables
@@ -128,7 +130,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 2. The script that allows the partner traffic to be routed and forwarded via `HUBVNET` is:
 
-[./logfile/firewalls-cp10.txt](./logfile/firewalls-cp10.txt)
+[./logfiles/firewalls-cp10.txt](./logfiles/firewalls-cp10.txt)
 
 
 ### Part C - Logging-And-Isolating Masqueraded Packets
