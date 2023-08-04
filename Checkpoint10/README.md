@@ -137,7 +137,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 [./logfiles/masqueraded-logged.log](./logfiles/masqueraded-logged.log)
 
-```bash
+```json
 
 # HTTP Hub on Windows Server 80
 Aug  4 01:25:09 LR-18 kernel: TO_DROP_FORWARDIN=eth0 OUT=eth0 MAC=00:22:48:d5:61:6a:ac:3d:94:1b:f5:c4:08:00 SRC=192.168.23.36 DST=172.17.18.36 LEN=41 TOS=0x00 PREC=0x00 TTL=125 ID=183 DF PROTO=TCP SPT=61889 DPT=80 WINDOW=2050 RES=0x00 ACK URGP=0
