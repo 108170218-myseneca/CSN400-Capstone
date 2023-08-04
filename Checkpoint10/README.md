@@ -70,7 +70,7 @@ AddressPrefix     HasBgpOverride    Name              NextHopIpAddress    NextHo
 ```
 ### Part B - Port Forwarding Basic Connectivity
 
-1. [./logfiles/nat-basic.log](./logfiles/nat-basic.log)
+1. [./logfiles/nat-basic.sh](./logfiles/nat-basic.sh)
 ```bash
 # to flush NAT tables
 iptables -t nat -F
