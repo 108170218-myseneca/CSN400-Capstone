@@ -70,7 +70,7 @@ AddressPrefix     HasBgpOverride    Name              NextHopIpAddress    NextHo
 ```
 ### Part B - Port Forwarding Basic Connectivity
 
-1. [./logfiles/nat-basic.txt](./logfiles/nat-basic.txt)
+1. [./logfiles/nat-basic.log](./logfiles/nat-basic.log)
 ```bash
 # to flush NAT tables
 iptables -t nat -F
@@ -95,7 +95,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 2. The `nat_basic-connectivity.sh` file that contains Basic Connectivity is:
 
-[./logfiles/nat-basic-connectivity.txt](./logfiles/nat-basic-connectivity.txt)
+[./logfiles/nat-basic-connectivity.sh](./logfiles/nat-basic-connectivity.sh)
 
 ```bash
 # to flush NAT tables
@@ -127,7 +127,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 2. The script that allows the partner traffic to be routed and forwarded via `HUBVNET` is:
 
-[./logfiles/firewalls-cp10.txt](./logfiles/firewalls-cp10.txt)
+[./logfiles/firewalls-cp10.sh](./logfiles/firewalls-cp10.sh)
 
 
 ### Part C - Logging-And-Isolating Masqueraded Packets
