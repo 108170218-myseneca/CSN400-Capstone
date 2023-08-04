@@ -44,7 +44,7 @@ AddressPrefix     HasBgpOverride    Name              NextHopIpAddress    NextHo
 `az network vnet subnet list --resource-group "Student-RG-954177" --vnet-name "Router-18"`
 
 
-```bash
+```json
 {
   "addressPrefix": "192.168.18.32/27",
   "delegations": [],
