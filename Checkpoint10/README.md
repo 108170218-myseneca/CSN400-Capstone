@@ -8,13 +8,10 @@
 
 ### Table of Contents
 
-
-- [Checkpoint10 Submission](#checkpoint10-submission)
-    - [Table of Contents](#table-of-contents)
-    - [Part A - Route Table Updates](#part-a---route-table-updates)
-    - [Part B - Port Forwarding Basic Connectivity](#part-b---port-forwarding-basic-connectivity)
-    - [Part C - Logging-And-Isolating Masqueraded Packets](#part-c---logging-and-isolating-masqueraded-packets)
-    - [Part D - Azure Cost Analysis Charts](#part-d---azure-cost-analysis-charts)
+- [Part A - Route Table Updates](#part-a---route-table-updates)
+- [Part B - Port Forwarding Basic Connectivity](#part-b---port-forwarding-basic-connectivity)
+- [Part C - Logging-And-Isolating Masqueraded Packets](#part-c---logging-and-isolating-masqueraded-packets)
+- [Part D - Azure Cost Analysis Charts](#part-d---azure-cost-analysis-charts)
 
 
 ### Part A - Route Table Updates
