@@ -154,12 +154,8 @@ Aug  4 01:31:41 LR-18 kernel: TO_DROP_FORWARDIN=eth0 OUT=eth0 MAC=00:22:48:d5:61
 # SSH Hub on Linux Server 22
 Aug  4 01:40:40 LR-18 kernel: TO_DROP_FORWARDIN=eth0 OUT=eth0 MAC=00:22:48:d5:61:6a:ac:3d:94:1b:f5:c4:08:00 SRC=192.168.23.36 DST=172.17.18.37 LEN=52
 ```
-2. A screenshot that shows the content of `masqueraded-log` packets with identical IDs
 
-![Masqueraded LOG](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint10/images/masqueradedlog.jpg)
-
-
-3. A screenshot that shows the content of `masqueraded-capture.pcap` packets
+2. A screenshot that shows the content of `masqueraded-capture.pcap` packets
 
 ![Masqueraded capture](https://github.com/108170218-myseneca/CSN400-Capstone/blob/main/Checkpoint10/images/masqueraded.jpg)
 
